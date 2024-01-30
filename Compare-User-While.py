@@ -7,7 +7,7 @@ def main():
   while y:
     try:
       user = int(input("Enter a number between 0-9: "))
-      if user > 9: 
+      if user > 9 or user < 9: 
         continue
     except ValueError:
       continue
