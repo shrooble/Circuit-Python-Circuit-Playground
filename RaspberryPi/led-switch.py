@@ -12,7 +12,7 @@ switchState = 0
 count = 0
 
 while True:
-    print(count)
+    print("Count: ", count)
     GPIO.output(led, GPIO.input(switch))
     switchState = GPIO.input(switch)
     if switchState != 0:
